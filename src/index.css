@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Gotham";
+    src: url(./assets/GothamSSm-Book_Web.woff2);
+}
+
+@font-face {
+    font-family: "Tesla-Font";
+    src: url(./assets/TESLA.ttf);
+}
+
+* {
+    font-family: "Gotham";
+}
+
+.logo {
+    font-family: "Tesla-Font";
+}
